@@ -11,12 +11,20 @@ html {
 }
 
 body {
-  background-image: url('https://raw.githubusercontent.com/OptionsDNA/optionsdna.github.io/master/_images/background.gif');
-  background-size: cover;
+  background-image: url('https://raw.githubusercontent.com/OptionsDNA/optionsdna.github.io/master/_images/background.png');
+  /*background-position: center bottom, left top;
+  -webkit-background-size: 80px 60px, cover;
+  -moz-background-size: 80px 60px, cover;
+  -o-background-size: 80px 60px, cover;*/
+  /*background-size: 800px 800 px, cover;*/
+  background-repeat: no-repeat;
+  /*width: 100%;*/
+  /*height: 100vh;*/
+
   margin: 2rem 0 5rem;
-  opacity:0.8;
-  color: #ccc;
+  color: #333;
 }
+
 
 @media (min-width: 30rem) {
   body {
@@ -37,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica Neue", sans-serif;
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   line-height: 1;
-  color: #eee;
+  color: #111;
   text-rendering: optimizeLegibility;
 }
 
