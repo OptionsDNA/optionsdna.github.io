@@ -1,7 +1,7 @@
 
 # Options DNA homepage
 
-###### The site is published __[here](https://optionsdna.github.io/puppyai/)__
+###### The site is published __[here](https://optionsdna.github.io/)__
 
 For hosting a simple markdown file:
 
